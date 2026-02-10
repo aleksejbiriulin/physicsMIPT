@@ -12,7 +12,7 @@ wall_left, wall_right = -1.0, 1.0
 wall_bottom, wall_top = -1.0, 1.0
 k_hooke = 5e2  # жёсткость для упругого столкновения
 dt = 1e-6  # шаг по времени
-t_max = 1.0  # общее время симуляции
+t_max = 2.0  # общее время симуляции
 steps = int(t_max / dt)
 t_eval = np.linspace(0, t_max, steps)
 
